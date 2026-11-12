@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base app theme: dark, no action bar -->
+    <style name="Theme.CalendarDesk" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="colorPrimary">@color/text_accent</item>
+        <item name="colorPrimaryDark">@color/bg_dark</item>
+        <item name="colorAccent">@color/text_accent</item>
+    </style>
+
+    <!-- Fullscreen immersive theme for main activity -->
+    <style name="Theme.Fullscreen" parent="Theme.CalendarDesk">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <!-- Settings activity: dark with toolbar -->
+    <style name="Theme.Settings" parent="Theme.CalendarDesk">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <!-- Floating action button style -->
+    <style name="FloatingBtn">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:background">@drawable/circle_bg</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Weekday header cell — 放大1倍 + 加粗 -->
+    <style name="WeekdayCell">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_dim</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Small circle button for calibration bar -->
+    <style name="CaliBtn">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:background">@drawable/cali_btn_bg</item>
+        <item name="android:textColor">@color/text_dim</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!-- Month browse arrow buttons (left/right of calendar) -->
+    <style name="NavBtn">
+        <item name="android:layout_width">44dp</item>
+        <item name="android:layout_height">44dp</item>
+        <item name="android:background">@drawable/circle_bg</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+</resources>

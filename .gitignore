@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# 本机 SDK 路径配置
+local.properties
+
+# IDE
+.idea/
+*.iml
+
+# 构建产物
+*.apk
+*.aab
+
+# OS
+.DS_Store
+Thumbs.db

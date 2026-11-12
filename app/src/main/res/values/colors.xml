@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#FF111111</color>
+    <color name="bg_card">#FF1A1A1A</color>
+    <color name="text_white">#FFFFFFFF</color>
+    <color name="text_gray">#FFAAAAAA</color>
+    <color name="text_dim">#FF888888</color>
+    <color name="text_accent">#FF4DA6FF</color>
+    <color name="text_lunar">#FFC0C0C0</color>
+    <color name="badge_rest">#FF4CAF50</color>
+    <color name="badge_work">#FFF44336</color>
+    <color name="divider">#FF333333</color>
+</resources>

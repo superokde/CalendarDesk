@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">台历时钟</string>
+    <string name="loading">加载中…</string>
+    <string name="syncing">同步时间中…</string>
+    <string name="weather_fail">天气获取失败</string>
+    <string name="default_city">东莞</string>
+    <string name="settings">设置</string>
+    <string name="api_key_label">和风天气 API Key</string>
+    <string name="save">保存</string>
+    <string name="reset_default">清空</string>
+    <string name="time_calibration">手动校准 (±1.0秒)</string>
+    <string name="resync">重校</string>
+    <string name="default_city_label">默认城市</string>
+    <string name="about">关于</string>
+    <string name="version">版本 1.0.0</string>
+</resources>
